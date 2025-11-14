@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "1603acd6-8b71-409c-b032-efeab03ea1b9",
+		"name": "Node–GAS API Tests",
+		"description": "Postman tests for local Node.js API and Google Apps Script web endpoints.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50084931",
+		"_collection_link": "https://devanshi-sharma-b9d5f934-8552180.postman.co/workspace/node-typescript-gas-integration~472249b7-9c50-4115-acdb-ca864a9c9aa0/collection/50084931-1603acd6-8b71-409c-b032-efeab03ea1b9?action=share&source=collection_link&creator=50084931"
+	},
+	"item": [
+		{
+			"name": "Local Add Function test",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/add?x=2&y=3\n",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"add"
+					],
+					"query": [
+						{
+							"key": "x",
+							"value": "2"
+						},
+						{
+							"key": "y",
+							"value": "3\n"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
