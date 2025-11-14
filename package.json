@@ -1,0 +1,30 @@
+{
+  "name": "typescript-gas-integration",
+  "version": "1.0.0",
+  "description": "A TypeScript-based starter template for building projects that run in both Node.js and Google Apps Script, with testing, CI/CD, and automated bundling.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devanshi-grey-box/node-typescript-gas-integration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/devanshi-grey-box/node-typescript-gas-integration/issues"
+  },
+  "homepage": "https://github.com/devanshi-grey-box/node-typescript-gas-integration#readme",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "esbuild": "^0.27.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.9"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  }
+}

@@ -1,0 +1,71 @@
+# -------------------------
+# Node + TypeScript Project
+# -------------------------
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+.esbuild/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# VSCode settings
+.vscode/
+*.code-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Postman
+postman/*-local.json
+
+# Google Apps Script
+.clasp.json
+.gas/
+appsscript.json     # If auto-generated, keep ignored unless you want it in repo
+/.clasprc.json
+
+# GitHub Actions
+# (Workflow files are stored but build outputs are ignored)
+# No patterns needed
+
+# Test coverage
+coverage/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Crash reports
+*.stackdump
+
+# Type definitions build
+types/*.js
+types/*.d.ts.map
+
+# Optional: ignore compiled JS inside src if you're generating them
+src/**/*.js
+src/**/*.js.map
