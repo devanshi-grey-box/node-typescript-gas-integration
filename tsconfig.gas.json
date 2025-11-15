@@ -1,21 +1,12 @@
 {
-    "compilerOptions": {
-      "target": "ES5",
-      "module": "none",
-      "rootDir": "./src",
-      "outDir": "./build",
-      "strict": true,
-      "lib": ["es5", "dom"],
-      "types": []
-    },
-    "include": [
-      "src/gas/**/*",
-      "src/shared/**/*",
-      "src/types/global.d.ts"
-    ],
-    "exclude": [
-      "dist",
-      "node_modules"
-    ]
-  }
-  
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "none",
+    "outDir": "./build",
+    "strict": false,
+    "types": ["google-apps-script"],
+    "skipLibCheck": true,
+    "lib": ["es5", "dom"]
+  },
+  "include": ["src/**/*.ts"]
+}
