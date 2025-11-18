@@ -5,6 +5,7 @@
     "outDir": "./build",
     "strict": false,
     "types": ["google-apps-script"],
+    "typeRoots": ["node_modules/@types"],
     "skipLibCheck": true,
     "lib": ["es5", "dom"]
   },
